@@ -1,0 +1,50 @@
+
+#mejoras{
+	background: #5c9817;
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+}
+
+#mejoras h2{
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+#mejoras .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.info-venta{
+	margin:20px;
+}
+
+.info-venta img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 7px solid #fff;
+}
+/*-----------Responsive-----------*/
+/*Dispositivo Movil*/
+@media(min-width: 480px){
+	.info-venta{
+		width: 40%;
+	}
+}
+
+/*Tablets*/
+@media(min-width: 768px){
+	.info-mascota{
+		width: 40%;
+	}
+}
+
+/*Escritorio*/
+@media(min-width: 1024px){
+	.info-mascota{
+		width: auto;
+	}
+}

@@ -1,0 +1,32 @@
+#bienvenidos{
+	text-align: center;
+}
+
+#bienvenidos h2{
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+
+#tratamiento{
+	padding:50px;
+}
+
+#tratamiento h4{
+	text-align: center;
+}
+
+#tratamiento .contenedor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap; 
+}
+
+#tratamiento article{
+	margin:15px;
+}
+
+#tratamiento img{
+	width: 100%;
+	max-width: 280px;
+}
